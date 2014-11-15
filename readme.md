@@ -10,7 +10,7 @@
 
 ----------
 
-* <e:pagination>
+* &lt;e:pagination&gt;
 
 ```html
 <body>
