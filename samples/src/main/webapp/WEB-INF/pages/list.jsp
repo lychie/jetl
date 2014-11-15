@@ -7,6 +7,7 @@
     <title>pagination</title>
     <c:set value="${pageContext.request.contextPath}" var="ctx" />
     <link href="${ctx}/styles/table.css" rel="stylesheet" type="text/css"/>
+    <link href="${ctx}/styles/style.css" rel="stylesheet" type="text/css"/>
     <script src="${ctx}/js/jquery-1.11.1.min.js" type="text/javascript"></script>
   </head>
   <body>
@@ -32,6 +33,7 @@
       link="${ctx}/demo/page/_index_" 
       pageitems="${p.pageSize}" 
       currentpage="${p.pageIndex}" 
-      totalamount="${p.totalCount}" />
+      totalamount="${p.totalCount}" 
+      style="margin-left:80px" />
   </body>
 </html>

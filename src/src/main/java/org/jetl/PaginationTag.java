@@ -19,7 +19,7 @@ public class PaginationTag extends TagSupport {
 	public void doTag() throws JspException, IOException {
 		super.doTag();
 		doDependent();
-		out.println("<div id=\"" + id + "\">");
+		out.println("<div id=\"" + id + "\" " + getDynamicAttributes() + "/>");
 		out.println("<script type=\"text/javascript\">");
 		out.println("$(function(){");
 		out.println("	$(\"#pagination\").pagination(" + totalamount + ", {");

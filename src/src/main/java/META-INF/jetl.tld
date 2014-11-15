@@ -59,5 +59,7 @@
       <name>dependent</name>
       <rtexprvalue>true</rtexprvalue>
     </attribute>
+    <description>支持动态标签</description>
+    <dynamic-attributes>true</dynamic-attributes>
   </tag>
 </taglib>
