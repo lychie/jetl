@@ -10,9 +10,9 @@ public class PaginationTag extends TagSupport {
 	private String totalamount;
 	private int currentpage;
 	private String pageitems;
+	private boolean dependent;
 	private String btnchain = "10";
 	private String btnedge = "0";
-	private boolean dependent = true;
 	private String callback = "function(page_index, jq){}";
 	
 	@Override
